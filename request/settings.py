@@ -31,4 +31,4 @@ REQUEST_PLUGINS = getattr(settings, 'REQUEST_PLUGINS', (
 ))
 
 # XXX: Change from original dont try to lookup the site here because it causes problems with testing
-REQUEST_BASE_URL = getattr(settings, 'REQUEST_BASE_URL', 'http://)
+REQUEST_BASE_URL = getattr(settings, 'REQUEST_BASE_URL', 'http://127.0.0.1')
